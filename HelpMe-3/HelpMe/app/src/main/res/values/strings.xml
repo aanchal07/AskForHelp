@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelpMe</string>
+    <string name="title_section1">HOME</string>
+    <string name="title_section2">PROFILE</string>
+    <string name="title_section3">FIND HELP</string>
+    <string name="title_section4">HISTORY</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_sign_up_activity_for_worker">Join Us!</string>
+    <string-array name="profession">
+        <item>Driver</item>
+        <item>Maid</item>
+        <item>Cook</item>
+        <item>Baby Sitter</item>
+        <item>Staff</item>
+    </string-array>
+</resources>

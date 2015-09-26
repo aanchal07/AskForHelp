@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ffcefffc"
+    android:layout_height="match_parent" tools:context="com.shikhar.helpme.UserProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/user"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="MY PROFILE"
+            android:textColor="#ff0c07b0"
+            android:textSize="40sp"
+            android:gravity="center"
+
+            android:background="#ffceffc2"
+            />
+        </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:padding="10dp"
+       android:orientation="horizontal">
+       <TextView
+           android:layout_width="0dp"
+           android:textColor="#2617FF"
+           android:textSize="20sp"
+           android:gravity="center"
+           android:background="@drawable/textviewshape"
+           android:layout_height="match_parent"
+           android:layout_weight="4"
+           android:text="Name:"/>
+       <TextView
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="6"
+           android:id="@+id/name"
+           android:gravity="center"
+
+           android:text="Name"/>
+       </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="#2617FF"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/textviewshape"
+            android:layout_weight="4"
+            android:text="Username:"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:id="@+id/username"
+            android:text="UserName"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:textColor="#2617FF"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/textviewshape"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="Phone Number:"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:id="@+id/phone"
+            android:text="Phone No."/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:textColor="#2617FF"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/textviewshape"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="Address:"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="6"
+            android:id="@+id/address"
+            android:text="12/1 T3"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/angry_btn"
+
+        android:text="Edit"
+        android:textColor="#2617FF"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A4A3"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="10"
+        />
+
+</LinearLayout>
